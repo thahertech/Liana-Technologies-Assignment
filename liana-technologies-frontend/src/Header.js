@@ -6,7 +6,6 @@ function Header() {
         <div classname="Header-Container">
             <Nav />
             <SearchBar />
-
         </div>
     )
 

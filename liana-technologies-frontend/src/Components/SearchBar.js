@@ -6,6 +6,10 @@ const SearchBar = ({ items }) => {
 
   const handleChange = (e) => {
     setSearchInput(e.target.value);
+    // Reset filteredItems when the search input is cleared
+    if (e.target.value === "") {
+      setFilteredItems([]);
+    }
   };
 
   const handleSearch = () => {
@@ -25,24 +29,25 @@ const SearchBar = ({ items }) => {
       />
       <button onClick={handleSearch}>Search</button>
 
-      {filteredItems.length > 0 ? (
-        <table>
-          <thead>
-            <tr>
-              <th>Item Name</th>
-              {/* Add more columns as needed */}
-            </tr>
-          </thead>
-          <tbody>
-            {filteredItems.map((item, index) => (
-              <tr key={index}>
-                <td>{item.name}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      ) : (
+      {searchInput.length > 0 && filteredItems.length === 0 ? (
         <p>No matching items found.</p>
+      ) : (
+        filteredItems.length > 0 && (
+          <table>
+            <thead>
+              <tr>
+                <th>Item Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              {filteredItems.map((item, index) => (
+                <tr key={index}>
+                  <td>{item.name}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        )
       )}
     </div>
   );

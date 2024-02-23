@@ -4,7 +4,7 @@ import Main from './Main';
 import Footer from './Footer';
 import Contact from './Contact';
 import Products from './Products';
-
+import Jumbotron from './Components/JumboTronComponent';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -12,11 +12,13 @@ function App() {
     <Router>
 
       <Header />
+      <Jumbotron />
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/company" element={<Footer />} />
         <Route path="/products" element={<Products />} />
         <Route path="/contact" element={<Contact />} />
+    
       </Routes>
     </Router>
   );
