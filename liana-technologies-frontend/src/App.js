@@ -6,7 +6,9 @@ import Contact from './Contact';
 import Products from './Products';
 import Jumbotron from './Components/JumboTronComponent';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+import ColumnBanner from './Column_image_banners';
+import CompanyNumbers from './Components/CompanyNumbers';
+import LatestNews from './LatestNews';
 function App() {
   return (
     <Router>
@@ -20,6 +22,10 @@ function App() {
         <Route path="/contact" element={<Contact />} />
     
       </Routes>
+      <ColumnBanner />
+      <CompanyNumbers />
+      <LatestNews />
+      <Footer />
     </Router>
   );
 }

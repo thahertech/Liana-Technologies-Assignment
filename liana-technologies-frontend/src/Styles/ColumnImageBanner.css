@@ -1,0 +1,24 @@
+/* ColumnImageBanner.css */
+
+.columnbanner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 52px;
+    padding-top: 2%;
+    overflow: hidden;
+}
+
+.column {
+    text-align: center;
+}
+
+.column img {
+    width: 100%;  
+    max-width: 300px; 
+    height: auto; 
+}
+
+.columnbanner-content {
+    margin-top: 10px; 
+}

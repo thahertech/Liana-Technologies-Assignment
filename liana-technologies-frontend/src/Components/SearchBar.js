@@ -6,7 +6,6 @@ const SearchBar = ({ items }) => {
 
   const handleChange = (e) => {
     setSearchInput(e.target.value);
-    // Reset filteredItems when the search input is cleared
     if (e.target.value === "") {
       setFilteredItems([]);
     }
