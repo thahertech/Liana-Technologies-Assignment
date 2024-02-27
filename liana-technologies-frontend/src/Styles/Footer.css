@@ -1,7 +1,8 @@
 .footer-container{
-background-color: black;
-padding-top: 30px;
-padding-bottom: 40px;
+    width: 1400px;
+    height: 271px;
+    background-color: #000000;
+    
 }
 
 h5{
@@ -17,4 +18,33 @@ h6{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
 
+}
+
+.footer-link-row{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+button{
+    width: 111px;
+height: 35px;
+border-radius: 5px;
+background-color: #4c8930;
+}
+.btn-contact-us{
+    align-self: center;
+}
+
+a{
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: right;
+}
+
+.SocialIcon{
+    color:green;
 }

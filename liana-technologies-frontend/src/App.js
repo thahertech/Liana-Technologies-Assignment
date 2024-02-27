@@ -9,6 +9,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ColumnBanner from './Column_image_banners';
 import CompanyNumbers from './Components/CompanyNumbers';
 import LatestNews from './LatestNews';
+import References from './References'
+import SubscribeToNews from './SubscribetoNews';
+
 function App() {
   return (
     <Router>
@@ -25,6 +28,8 @@ function App() {
       <ColumnBanner />
       <CompanyNumbers />
       <LatestNews />
+      <References />
+      <SubscribeToNews />
       <Footer />
     </Router>
   );

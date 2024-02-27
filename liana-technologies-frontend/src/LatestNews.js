@@ -6,26 +6,26 @@ const LatestNews = () => {
   return (
     <div className="latest-news-container">
 
-      <div className="latest-news-section">
+      <section className="latest-news-section">
         <h2>Latest News</h2>
         <div className="news-cards-container">
           <NewsCard
-            title="News Title 1"
-            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            date="2024-02-25"
+          date="20.07.2016"
+            content="Liana Technologies and EncodeSolutions merge to create unique mobile solutions"
+
+
           />
           <NewsCard
-            title="News Title 2"
-            content="Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            date="2024-02-24"
-          />
+            date="28.01.2016"
+            content="From a local startup to a global player: Liana Technologies among the forerunners of digital marketing technology"
+/>
           <NewsCard
-            title="News Title 3"
-            content="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
-            date="2024-02-23"
+            date="02.07.2015"
+            content="Liana Technologies Hong Kong launched a series of digital marketing events in June"
+
           />
         </div>
-      </div>
+      </section>
     </div>
   );
 }

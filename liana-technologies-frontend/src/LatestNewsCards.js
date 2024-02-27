@@ -1,12 +1,12 @@
 import React from 'react';
 import './Styles/LatestNewsCards.css';
 
-const NewsCard = ({ title, content, date }) => {
+const NewsCard = ({date, content }) => {
   return (
     <div className="latest-news-card">
-      <h3>{title}</h3>
+     <small>{date}</small>
       <p>{content}</p>
-      <small>{date}</small>
+      
     </div>
   );
 }

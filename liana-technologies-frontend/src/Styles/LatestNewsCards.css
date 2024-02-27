@@ -1,3 +1,13 @@
 .news-cards-container{
     display: flex;
+    
+}
+.latest-news-container{
+    width: 1400px;
+height: 350px;
+background-color: #ebedef;
+   
+}
+h2{
+    text-align: center;
 }
