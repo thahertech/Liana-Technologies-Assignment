@@ -3,8 +3,8 @@
     
 }
 .subscribe-news-content{
-    width: 360px;
     height: 120px;
+    width: 360px;
     font-size: 16px;
     letter-spacing: 0px;
     line-height: 24px;
@@ -12,23 +12,33 @@
     font-weight: 400;
     font-family: "Open Sans";
     text-align: center;
+    margin: 0 auto;
+    
 }
 
 
 .subscribe-bar{
     display: inline;
     text-align: center;
-    width: 418px;
+    width: 127px;
 height: 50px;
 border-radius: 5px;
-background-color: #ffffff;
-border: 1px solid #cccccc;
-
+background-color: #4c8930;
 }
-input{
+.subscribe-bar input{
     width: 418px;
-height: 50px;
-border-radius: 5px;
-background-color: #ffffff;
-border: 1px solid #cccccc;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+.subscribe-news-content h2{
+    font-size: 32px;
+letter-spacing: 0px;
+line-height: 24px;
+color: #373a3c;
+font-weight: 600;
+font-family: "Open Sans";
+text-align: center;
 }

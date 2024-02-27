@@ -1,4 +1,0 @@
-# Liana-Technologies-Assignment
-
-
-

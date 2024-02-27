@@ -19,9 +19,10 @@ function Navigation() {
         <Link to="/products">Products</Link>
         <Link to="/contact">Contact Us</Link>
         <nav className="search-bar">
+        <SearchBar />
+
         </nav>
 
-      <SearchBar />
       </nav>
     </header>
   );

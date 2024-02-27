@@ -3,11 +3,19 @@
     
 }
 .latest-news-container{
-    width: 1400px;
-height: 350px;
-background-color: #ebedef;
+    max-width: 1400px;
+    width: 100%;
+    height: 350px;
+    background-color: #ebedef;
    
 }
 h2{
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .news-cards-container {
+       align-items: center;
+       flex-direction: column;
+    }
 }
