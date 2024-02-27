@@ -20,7 +20,7 @@ const SubscribeBar = ({ items }) => {
   };
 
   return (
-    <div>
+    <div className="subscribe-box">
       <input
         type="email"
         placeholder="Your email address"

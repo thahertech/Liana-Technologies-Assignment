@@ -1,4 +1,4 @@
-button{
+.subscribe-box button{
     width: 127px;
 height: 50px;
 border-radius: 5px;
@@ -10,3 +10,17 @@ color: #ffffff;
 font-weight: 400;
 font-family: "Open Sans";
 }
+
+@media (max-width: 768px) {
+    .subscribe-box {
+       
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+    .subscribe-bar input{
+        max-width: 60%;
+    }
+    
+    }
