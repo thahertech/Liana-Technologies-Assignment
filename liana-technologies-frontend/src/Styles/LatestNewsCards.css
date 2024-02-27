@@ -1,21 +1,42 @@
+.latest-news-section{
+    padding-top: 10px;
+    margin-top: 10px;
+    
+}
 .news-cards-container{
     display: flex;
+    justify-content: center;
     
 }
 .latest-news-container{
-    max-width: 1440px;
+    max-width: 14400px;
     width: 100%;
     height: 350px;
     background-color: #ebedef;
    
 }
+
+.latest-news-card{
+    margin: 20px;
+    width: 361px;
+    height: 173px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+}
+
 h2{
     text-align: center;
 }
 
 @media (max-width: 768px) {
+    .latest-news-container{
+        height: 750px;
+
+    }
     .news-cards-container {
        align-items: center;
        flex-direction: column;
+       margin: 10px;
     }
 }

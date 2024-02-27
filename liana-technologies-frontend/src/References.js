@@ -2,7 +2,9 @@ import React from 'react';
 import Reference from './ReferenceCard';
 import './Styles/References.css'; 
 import ikea from './Assets/Ikea-logo.png'
-
+import bosch from './Assets/Robert-Bosch-logo.jpg';
+import thebodyshop from './Assets/The-body-shop-logo.png';
+import laplandhotels from './Assets/Lapland-hotels-logo.png';
 const References = () => {
   return (
     
@@ -12,7 +14,7 @@ const References = () => {
       <h2>References</h2>
         <div className="reference-card-container">
           <Reference
-          logo={ikea}
+          logo={bosch}
           
           company="Robert Bosch"
             content="Bosch is a multinational engineering and electronics company."
@@ -20,12 +22,12 @@ const References = () => {
 
           />
           <Reference
-            logo={ikea}
+            logo={thebodyshop}
             company="The Body Shop"
             content="From a local startup to a global player: Liana Technologies among the forerunners of digital marketing technology"
 />
           <Reference
-            logo={ikea}
+            logo={laplandhotels}
             company="Lapland Hotels"
             content="Liana Technologies Hong Kong launched a series of digital marketing events in June"
 
