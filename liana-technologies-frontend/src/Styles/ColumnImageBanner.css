@@ -2,13 +2,16 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 52px;
+    margin: 90px;
     padding-top: 2%;
     overflow: hidden;
+    margin-top: 3%;
+    
 }
 
 .column {
     text-align: center;
+    position: relative;
 }
 
 .column img {
@@ -16,28 +19,48 @@
     height: 222px;
     border-radius: 5px;
     background-color: #eceeef; 
+    position: relative;
+    opacity: 0.75;
+    
+    
+}
+
+.column h2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: center;
+    margin: 0;
 }
 
 .columnbanner-content {
     margin-top: 10px;
     width: 289px;
-height: 132px;
-font-size: 28px;
-letter-spacing: 0px;
-line-height: 25px;
-color: #000000;
-font-weight: 600;
-font-family: "Open Sans";
-text-align: center;
+    height: 132px;
+    font-size: 28px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #000000;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: center;
 }
 
 @media (max-width: 768px) {
     .columnbanner-container {
         flex-direction: column;
         align-items: center;
+        margin-bottom: auto;
     }
 
     .column {
-        margin-bottom: 20px;
+        margin-bottom: -20%;
+        
     }
 }

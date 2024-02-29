@@ -5,7 +5,7 @@ const ReferenceCard = ({ logo, company, content }) => {
   return (
     <div className="reference-card">
     <img src={logo} alt='reference-company-logo'/>
-     <small>{company}</small>
+     <h6>{company}</h6>
       <p>{content}</p>
       
     </div>

@@ -22,7 +22,7 @@ export default function CompanyNumbers(){
             </div>
             <IoMdGlobe />
             <div className="company-content">
-                <h3>1000</h3>
+                <h3>10000</h3>
                 <h4>Daily users</h4>
             </div>
             </div>

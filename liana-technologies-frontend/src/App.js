@@ -11,7 +11,6 @@ import CompanyNumbers from './Components/CompanyNumbers';
 import LatestNews from './LatestNews';
 import References from './References'
 import SubscribeToNews from './SubscribetoNews';
-import Nav from './Nav';
 
 function App() {
   return (

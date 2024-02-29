@@ -24,18 +24,18 @@ const References = () => {
           <Reference
             logo={thebodyshop}
             company="The Body Shop"
-            content="From a local startup to a global player: Liana Technologies among the forerunners of digital marketing technology"
+            content="The Body Shop is a global beauty brand and it has more than 3,000 stores in more than 60 countries."
 />
           <Reference
             logo={laplandhotels}
             company="Lapland Hotels"
-            content="Liana Technologies Hong Kong launched a series of digital marketing events in June"
+            content="Lapland Hotels is the largest and the most diverse hotel chain in Lapland."
 
           />
             <Reference
             logo={ikea}
             company="IKEA"
-            content="Liana Technologies Hong Kong launched a series of digital marketing events in June"
+            content="IKEA is a multinational furniture store."
 
           />
         </div>

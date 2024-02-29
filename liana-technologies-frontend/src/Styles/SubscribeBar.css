@@ -12,10 +12,14 @@ font-family: "Open Sans";
 }
 
 @media (max-width: 768px) {
+    .subscribe-news-container{
+        margin-top: 10%;
+    }
     .subscribe-box {
        
         flex-direction: column;
         align-items: center;
+        margin-top: 20px;
         margin-bottom: 20px;
       }
 
