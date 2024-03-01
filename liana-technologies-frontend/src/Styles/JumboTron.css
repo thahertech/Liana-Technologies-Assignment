@@ -71,17 +71,19 @@ text-align: center;
   .image-container {
     margin-top: 0;
     margin-bottom: 0;
+    width: 100%;
+    
   }
 
   .content {
-    top: 25%;
-    margin-left: 10%;
-    margin-right: 10%;
+    top: 30%;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
   .content h1 {
     
-    font-size: 2em;
+    font-size: 1.5em;
     margin-bottom: 40px;
 
   }

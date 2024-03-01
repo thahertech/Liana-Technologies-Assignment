@@ -122,3 +122,54 @@ button{
 .SocialIcon{
     color:green;
 }
+
+
+@media (max-width: 768px) {
+    .footer-container {
+        width: 100%;
+        height: auto;
+        background-color: #000000;
+    }
+    
+    .footer-first-row, .footer-contact-container {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .footer-details-card {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .footer-container h5, .footer-container h6 {
+        margin-left: 0;
+    }
+    
+    .footer-link-row {
+        flex-direction: column;
+        
+    }
+
+    .footer-link-row a {
+        padding: 10px 0;
+    }
+
+    .btn-contact-us {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    .footer-social-logo {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer-social-logo a {
+        text-align: center;
+    }
+    
+}

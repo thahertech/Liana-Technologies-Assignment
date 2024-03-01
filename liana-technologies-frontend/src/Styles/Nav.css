@@ -142,6 +142,11 @@ nav input {
         justify-content: space-around;
     }
 
+    .second-row {
+
+      margin-top: 10px;
+    }
+
     .first-row a {
         margin-right: 20px;
         margin-bottom: 10px;

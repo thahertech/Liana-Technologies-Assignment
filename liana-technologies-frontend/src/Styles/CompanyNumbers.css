@@ -37,9 +37,14 @@
     .company-container {
        align-items: center;
        flex-direction: column;
+       text-align: center;
+    }
+
+    .company-content {
+        margin-top: -10px;
     }
     
-    .company-container svg{
+    .company-container svg {
         font-size: 4em;
     }
 

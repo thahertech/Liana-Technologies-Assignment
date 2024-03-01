@@ -10,7 +10,6 @@ export default function ColumnBanner() {
             <div className="column">
                 <div className="image-container">
                     <img src={CompanyImg} alt="CompanyColumnBanner" />
-                    <h2>Company</h2>
                 </div>
                 <div className="columnbanner-content">
                     <h2>Company</h2>
