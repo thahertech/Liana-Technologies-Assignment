@@ -12,32 +12,39 @@ const Footer = () => {
     return (
         <div className="footer-container">
             <div className="footer-first-row">
+            <h4> Liana Technologies</h4>
            <nav className="footer-link-row">
         <Link to="/company">Company</Link>
         <Link to="/products">Products</Link>
         <Link to="/contact">Contact Us</Link>
         <Link to="/news">News</Link>
         <Link to="/intranet">Intranet</Link>
-        </nav>
+                </nav>
+         
             </div>
+        <div className="footer-contact-container">
+            <div className="footer-details-card">
 
-            <h6> Liana Technologies</h6>
             <h5>Sales and inquiries</h5>
             <h6>Email: sales@lianatech.com <br />
             Phone: +358 10 387 7053</h6>
+            </div>
+
             <button className="btn-contact-us">Contact us</button>
             <div className="footer-social-logo">
             <SocialIcon url="www.facebook.com" bgColor="#4c8930"/>
             <SocialIcon url="www.twitter.com" bgColor="#4c8930"/>
             <SocialIcon url="www.linkedin.com" bgColor="#4c8930"/>
+
+        </div>
             </div>
 
 
 
-          
+
 
          </div>
-        
+
     )
 
 

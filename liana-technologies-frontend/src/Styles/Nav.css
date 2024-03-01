@@ -53,6 +53,7 @@ nav input {
     background-color: #ffffff;
     border: 1px solid #dddddd;
     margin-right: 10px;
+    padding-left: 3%;
 }
 
 .search-bar button {

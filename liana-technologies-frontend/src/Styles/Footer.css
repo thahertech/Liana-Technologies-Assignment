@@ -5,34 +5,108 @@
     
 }
 
-h5{
-    color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 16px;
-    font-weight:bold;
+.footer-first-row{
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-h6{
-    margin-bottom: 0;
-    color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 16px;
+.footer-contact-container{
+    display: flex;
+    justify-content: space-between;
 
+    margin-right: 10%;
+    margin-left: 10%;
+    
+}
+
+.footer-details-card {
+    width: 264px;
+
+}
+.footer-container h4{
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+
+    
+}
+
+.footer-container h5{
+
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+
+    margin-left: 10%;
+    margin-bottom: 0;
+}
+
+.footer-container h6{
+
+
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+
+    margin-left: 10%;
+    margin-top: 0;
 }
 
 .footer-link-row{
     display: flex;
-    justify-content: flex-end;
     align-items: center;
 }
+
+.footer-link-row a {
+
+    font-size: 16px;
+letter-spacing: 0px;
+line-height: 25px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Open Sans";
+padding: 0 20px;
+}
+
 button{
     width: 111px;
-height: 35px;
-border-radius: 5px;
-background-color: #4c8930;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #4c8930;
 }
+
 .btn-contact-us{
     align-self: center;
+    margin-right: 55%;
+    margin-top: 1%;
+
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+
+
+    
+}
+
+.footer-social-logo {
+
+    align-self: center;
+    white-space: nowrap;
 }
 
 .footer-social-logo a{
