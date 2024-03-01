@@ -1,5 +1,5 @@
 import React from 'react';
-import './Styles/References.css';
+import '../Styles/References.css';
 
 const ReferenceCard = ({ logo, company, content }) => {
   return (

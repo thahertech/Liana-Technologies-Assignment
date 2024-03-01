@@ -1,21 +1,15 @@
 import React, { useState } from 'react';
 
-const SearchBar = ({ items }) => {
+const SearchBar = () => {
   const [searchInput, setSearchInput] = useState("");
-  const [filteredItems, setFilteredItems] = useState([]);
 
   const handleChange = (e) => {
     setSearchInput(e.target.value);
-    if (e.target.value === "") {
-      setFilteredItems([]);
-    }
   };
 
   const handleSearch = () => {
-    const filtered = items.filter((item) =>
-      item.name.toLowerCase().includes(searchInput.toLowerCase())
-    );
-    setFilteredItems(filtered);
+    //update the state for front-end
+    setSearchInput("");
   };
 
   return (
@@ -28,26 +22,9 @@ const SearchBar = ({ items }) => {
       />
       <button onClick={handleSearch}>Search</button>
 
-      {searchInput.length > 0 && filteredItems.length === 0 ? (
-        <p>No matching items found.</p>
-      ) : (
-        filteredItems.length > 0 && (
-          <table>
-            <thead>
-              <tr>
-                <th>Item Name</th>
-              </tr>
-            </thead>
-            <tbody>
-              {filteredItems.map((item, index) => (
-                <tr key={index}>
-                  <td>{item.name}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        )
-      )}
+      {searchInput.length > 0 ? (
+        <p>Not found</p>
+      ) : null}
     </div>
   );
 };

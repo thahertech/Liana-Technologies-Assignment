@@ -14,10 +14,10 @@ const Footer = () => {
             <div className="footer-first-row">
             <h4> Liana Technologies</h4>
            <nav className="footer-link-row">
-        <Link to="/company">Company</Link>
-        <Link to="/products">Products</Link>
-        <Link to="/contact">Contact Us</Link>
-        <Link to="/news">News</Link>
+        <Link to="/">Company</Link>
+        <Link to="/">Products</Link>
+        <Link to="/">Contact Us</Link>
+        <Link to="/">News</Link>
         <Link to="/intranet">Intranet</Link>
                 </nav>
          

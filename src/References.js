@@ -1,5 +1,5 @@
 import React from 'react';
-import Reference from './ReferenceCard';
+import Reference from './Components/ReferenceCard';
 import './Styles/References.css'; 
 import ikea from './Assets/Ikea-logo.png'
 import bosch from './Assets/Robert-Bosch-logo.jpg';
